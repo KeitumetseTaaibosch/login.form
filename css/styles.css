@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #95c4e6;
+}
+
+.Container{
+  width: 400px;
+  height: 400px;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 24px 24px 48px rgba(174, 210, 236, 0.4),
+inset 12px 12px 24px #e7f2f9, inset -24px -24px 48px #b8d8ee
+}
+
+.Container h2{
+  margin-top: 40px;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700px;
+  color: #3e90d0;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items: center;
+}
+
+input{
+  width: 300px;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background: #6facdc;
+  color: #fff;
+  border-radius: 40px;
+  box-shadow:  0px 4px 24px #b5d6ee, inset 6px 6px 12px #63a5d9, inset -12px -12px 24px #3e90d0;
+}
+::placeholder{
+  color: #fff;
+}
+.btn{
+  text-align: center;
+  width: 150px;
+  font-weight: 600px;
+  transition: 0.2s ease-out;
+}
+
+.btn hover{
+  cursor: pointer;
+  box-shadow: 0px 4px 24px #5b7c96, inset -12px -12px 24px #3e90d0;
+}
+
+.Container p{
+  text-align: center;
+  color: #3e90d0;
+}
+
+.Container a{
+  color: #1166a7;
+}
